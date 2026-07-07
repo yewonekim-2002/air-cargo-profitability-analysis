@@ -1,0 +1,39 @@
+﻿region,country,arrival_cargo_tons,departure_cargo_tons,total_cargo_tons
+Oceania,하와이,19,0,19
+Oceania,Australia,433,0,433
+Southeast Asia,Malaysia,1717,1736,3453
+Southeast Asia,Vietnam,28851,55375,84226
+Southeast Asia,Singapore,9365,6403,15768
+Southeast Asia,Indonesia,0,595,595
+Southeast Asia,Thailand,4196,863,5059
+Southeast Asia,Philippines,0,272,272
+Northeast Asia,Taiwan,28,2970,2998
+Northeast Asia,Mongolia,31,94,125
+Northeast Asia,Hong Kong,24111,48929,73039
+Americas,Mexico,2960,172,3132
+Americas,United States,107313,110606,217919
+Americas,브라질,241,583,824
+Americas,칠레,775,0,775
+Americas,Canada,5157,160,5316
+Americas,페루,643,0,643
+Europe,Netherlands,15717,4192,19909
+Europe,노르웨이,21230,160,21390
+Europe,Germany,60155,22945,83100
+Europe,룩셈부르크,6073,10306,16379
+Europe,Belgium,11413,3,11416
+Europe,스웨덴,2016,134,2149
+Europe,Switzerland,2623,69,2692
+Europe,Spain,3612,366,3978
+Europe,아제르바이잔,7358,12245,19602
+Europe,United Kingdom,2907,2910,5817
+Europe,오스트리아,0,16140,16140
+Europe,Uzbekistan,87,0,87
+Europe,Italy,17207,7203,24409
+Europe,Kazakhstan,0,45,45
+Europe,Turkey,6732,8662,15394
+Europe,투르크메니스탄,974,1861,2835
+Europe,France,3546,0,3546
+일본,Japan,42785,46301,89086
+중국,China,91039,93207,184246
+Middle East,United Arab Emirates,0,892,892
+Middle East,Qatar,11244,18276,29519
