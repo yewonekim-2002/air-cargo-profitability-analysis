@@ -83,6 +83,19 @@ country_mapping = {
     "마카오": "Macau"
 }
 
+country_mapping.update({
+    "노르웨이": "Norway",
+    "룩셈부르크": "Luxembourg",
+    "브라질": "Brazil",
+    "스웨덴": "Sweden",
+    "아제르바이잔": "Azerbaijan",
+    "오스트리아": "Austria",
+    "칠레": "Chile",
+    "투르크메니스탄": "Turkmenistan",
+    "페루": "Peru",
+    "하와이": "Hawaii"
+})
+
 df["region"] = df["region"].replace(region_mapping)
 df["country"] = df["country"].replace(country_mapping)
 
