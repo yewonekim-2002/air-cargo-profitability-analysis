@@ -1,2 +1,6 @@
-# air-cargo-profitability-analysis
-Analyzing air cargo revenue, profitability, and capacity utilization using SQL and Power BI.
+
+# ✈️ Air Cargo Profitability Analysis
+
+An end-to-end data analytics project that estimates air cargo profitability using the Incheon International Airport OpenAPI, Python, and Power BI.
+
+**Status:** 🚧 In Progress
