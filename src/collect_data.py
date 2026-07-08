@@ -1,7 +1,11 @@
 import requests
 import pandas as pd
+import os
+from dotenv import load_dotenv
 
-API_KEY = "c22a3093e95833e69244e8ce680907e0b5461ddbfb2a5a2460c5f3269da021b8"
+load_dotenv()
+
+API_KEY = os.getenv("API_KEY")
 
 url = "https://apis.data.go.kr/B551177/AviationStatsByCountry/getTotalTonsOfCargo"
 
