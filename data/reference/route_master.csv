@@ -1,39 +1,39 @@
-﻿country,airport,iata,distance_km,region
-Australia,,,,
-Austria,,,,
-Azerbaijan,,,,
-Belgium,,,,
-Brazil,,,,
-Canada,,,,
-Chile,,,,
-China,,,,
-France,,,,
-Germany,,,,
-Hawaii,,,,
-Hong Kong,,,,
-Indonesia,,,,
-Italy,,,,
-Japan,,,,
-Kazakhstan,,,,
-Luxembourg,,,,
-Malaysia,,,,
-Mexico,,,,
-Mongolia,,,,
-Netherlands,,,,
-Norway,,,,
-Peru,,,,
-Philippines,,,,
-Qatar,,,,
-Singapore,,,,
-Spain,,,,
-Sweden,,,,
-Switzerland,,,,
-Taiwan,,,,
-Thailand,,,,
-Turkey,,,,
-Turkmenistan,,,,
-United Arab Emirates,,,,
-United Kingdom,,,,
-United States,,,,
-Uzbekistan,,,,
-Vietnam,,,,
+﻿country,region
+Australia,Oceania
+Austria,Europe
+Azerbaijan,Central Asia
+Belgium,Europe
+Brazil,South America
+Canada,North America
+Chile,South America
+China,Northeast Asia
+France,Europe
+Germany,Europe
+Hawaii,North America
+Hong Kong,East Asia
+Indonesia,Southeast Asia
+Italy,Europe
+Japan,Northeast Asia
+Kazakhstan,Central Asia
+Luxembourg,Europe
+Malaysia,Southeast Asia
+Mexico,North America
+Mongolia,East Asia
+Netherlands,Europe
+Norway,Europe
+Peru,South America
+Philippines,Southeast Asia
+Qatar,Middle East
+Singapore,Southeast Asia
+Spain,Europe
+Sweden,Europe
+Switzerland,Europe
+Taiwan,East Asia
+Thailand,Southeast Asia
+Turkey,Middle East
+Turkmenistan,Central Asia
+United Arab Emirates,Middle East
+United Kingdom,Europe
+United States,North America
+Uzbekistan,Central Asia
+Vietnam,Southeast Asia

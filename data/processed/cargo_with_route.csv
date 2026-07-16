@@ -1,0 +1,39 @@
+﻿region_x,country,arrival_cargo_tons,departure_cargo_tons,total_cargo_tons,net_cargo_flow,cargo_direction,departure_ratio,arrival_ratio,region_y
+Oceania,Hawaii,19,0,19,-19,Inbound,0.0,1.0,North America
+Oceania,Australia,433,0,433,-433,Inbound,0.0,1.0,Oceania
+Southeast Asia,Malaysia,1717,1736,3453,19,Outbound,0.5027512308137851,0.4972487691862149,Southeast Asia
+Southeast Asia,Vietnam,28851,55375,84226,26524,Outbound,0.6574573172179612,0.3425426827820388,Southeast Asia
+Southeast Asia,Singapore,9365,6403,15768,-2962,Inbound,0.4060755961440893,0.5939244038559107,Southeast Asia
+Southeast Asia,Indonesia,0,595,595,595,Outbound,1.0,0.0,Southeast Asia
+Southeast Asia,Thailand,4196,863,5059,-3333,Inbound,0.170587072543981,0.829412927456019,Southeast Asia
+Southeast Asia,Philippines,0,272,272,272,Outbound,1.0,0.0,Southeast Asia
+Northeast Asia,Taiwan,28,2970,2998,2942,Outbound,0.9906604402935292,0.0093395597064709,East Asia
+Northeast Asia,Mongolia,31,94,125,63,Outbound,0.752,0.248,East Asia
+Northeast Asia,Hong Kong,24111,48929,73039,24818,Outbound,0.6699023809197826,0.3301113103958159,East Asia
+Americas,Mexico,2960,172,3132,-2788,Inbound,0.0549169859514687,0.9450830140485312,North America
+Americas,United States,107313,110606,217919,3293,Outbound,0.5075555596345431,0.4924444403654568,North America
+Americas,Brazil,241,583,824,342,Outbound,0.7075242718446602,0.2924757281553398,South America
+Americas,Chile,775,0,775,-775,Inbound,0.0,1.0,South America
+Americas,Canada,5157,160,5316,-4997,Inbound,0.0300978179082016,0.9700902934537246,North America
+Americas,Peru,643,0,643,-643,Inbound,0.0,1.0,South America
+Europe,Netherlands,15717,4192,19909,-11525,Inbound,0.210558039077804,0.789441960922196,Europe
+Europe,Norway,21230,160,21390,-21070,Inbound,0.0074801309022907,0.9925198690977092,Europe
+Europe,Germany,60155,22945,83100,-37210,Inbound,0.2761131167268351,0.7238868832731649,Europe
+Europe,Luxembourg,6073,10306,16379,4233,Outbound,0.6292203431222907,0.3707796568777092,Europe
+Europe,Belgium,11413,3,11416,-11410,Inbound,0.0002627890679747,0.9997372109320252,Europe
+Europe,Sweden,2016,134,2149,-1882,Inbound,0.0623545835272219,0.9381107491856676,Europe
+Europe,Switzerland,2623,69,2692,-2554,Inbound,0.025631500742942,0.974368499257058,Europe
+Europe,Spain,3612,366,3978,-3246,Inbound,0.0920060331825037,0.9079939668174962,Europe
+Europe,Azerbaijan,7358,12245,19602,4887,Outbound,0.6246811549841853,0.375369860218345,Central Asia
+Europe,United Kingdom,2907,2910,5817,3,Outbound,0.5002578648788035,0.4997421351211965,Europe
+Europe,Austria,0,16140,16140,16140,Outbound,1.0,0.0,Europe
+Europe,Uzbekistan,87,0,87,-87,Inbound,0.0,1.0,Central Asia
+Europe,Italy,17207,7203,24409,-10004,Inbound,0.2950960711213077,0.7049448973739194,Europe
+Europe,Kazakhstan,0,45,45,45,Outbound,1.0,0.0,Central Asia
+Europe,Turkey,6732,8662,15394,1930,Outbound,0.5626867610757438,0.4373132389242562,Middle East
+Europe,Turkmenistan,974,1861,2835,887,Outbound,0.6564373897707231,0.3435626102292769,Central Asia
+Europe,France,3546,0,3546,-3546,Inbound,0.0,1.0,Europe
+Northeast Asia,Japan,42785,46301,89086,3516,Outbound,0.5197337404305952,0.4802662595694048,Northeast Asia
+Northeast Asia,China,91039,93207,184246,2168,Outbound,0.5058834384464249,0.4941165615535751,Northeast Asia
+Middle East,United Arab Emirates,0,892,892,892,Outbound,1.0,0.0,Middle East
+Middle East,Qatar,11244,18276,29519,7032,Outbound,0.619126664182391,0.3809072123039398,Middle East
