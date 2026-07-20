@@ -122,7 +122,7 @@ The API data was automatically collected using Python and transformed into an an
 Which countries receive the largest amount of cargo?
 
 <p align="center">
-<img src="images/top_destinations.png" width="750">
+<img src="images/top10_cargo_dest.png" width="750">
 </p>
 
 ### Insight
@@ -140,7 +140,7 @@ Which countries receive the largest amount of cargo?
 Which countries export the most cargo?
 
 <p align="center">
-<img src="images/outbound_destinations.png" width="750">
+<img src="images/top10_outbound_cargo_dest.png" width="750">
 </p>
 
 ### Insight
@@ -157,7 +157,7 @@ Which countries export the most cargo?
 Which countries import the most cargo?
 
 <p align="center">
-<img src="images/inbound_destinations.png" width="750">
+<img src="images/top10_inbound_dest.png" width="750">
 </p>
 
 ### Insight
@@ -174,7 +174,7 @@ Which countries import the most cargo?
 Which countries are net exporters?
 
 <p align="center">
-<img src="images/net_export_destinations.png" width="750">
+<img src="images/top10_net_export_dest.png" width="750">
 </p>
 
 ### Insight
@@ -191,9 +191,8 @@ Which countries are net exporters?
 Which regions handle the largest cargo volume?
 
 <p align="center">
-<img src="images/cargo_by_region.png" width="750">
+<img src="images/cargo_volume_region.png" width="750">
 </p>
-
 ### Insight
 
 - Northeast Asia handled the largest cargo volume.
@@ -209,7 +208,7 @@ Which regions handle the largest cargo volume?
 Which regions are net exporters and which are net importers?
 
 <p align="center">
-<img src="images/net_flow_by_region.png" width="750">
+<img src="images/net_cargo_flow_by_region.png" width="750">
 </p>
 
 ### Insight
@@ -228,7 +227,7 @@ Which regions are net exporters and which are net importers?
 Which countries are highly export-oriented?
 
 <p align="center">
-<img src="images/export_oriented_countries.png" width="750">
+<img src="images/top_export_oriented_countries.png" width="750">
 </p>
 
 ### Insight
