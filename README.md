@@ -1,42 +1,85 @@
 # ✈️ Air Cargo Profitability Analysis
 
-A data analysis project exploring international air cargo flows using Incheon International Airport cargo data.
+An end-to-end data analytics project that automatically collects international air cargo data from the **Incheon International Airport Open API**, processes the data using Python, and visualizes business insights with Power BI.
 
-The project focuses on identifying major cargo destinations, regional cargo distribution, export/import trends, and business insights through Python, Pandas, and Power BI.
-
----
-
-## 📌 Project Objectives
-
-- Analyze international air cargo traffic.
-- Identify major export and import destinations.
-- Compare cargo volume across regions.
-- Evaluate regional trade balance using net cargo flow.
-- Build an interactive Power BI dashboard for business insights.
+The project explores international cargo movement by identifying major cargo destinations, regional distribution, export/import patterns, and trade balance through exploratory data analysis and interactive dashboards.
 
 ---
 
-## 🛠️ Tech Stack
+# 📌 Project Objectives
+
+- Collect cargo statistics automatically using an Open API
+- Clean and preprocess raw data
+- Engineer business-focused analytical features
+- Analyze international cargo flows
+- Identify export/import patterns and regional cargo distribution
+- Build an interactive Power BI dashboard
+
+---
+
+# 🛠️ Tech Stack
 
 - Python
 - Pandas
 - Matplotlib
+- Requests (Open API)
 - Jupyter Notebook
 - Power BI
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
-## 📂 Project Structure
+# 📡 Data Collection
+
+This project uses the **Incheon International Airport Open API** to collect international air cargo statistics.
+
+The entire data collection process is automated using Python.
+
+### Workflow
+
+```
+Incheon International Airport Open API
+                │
+                ▼
+        collect_data.py
+                │
+                ▼
+         Raw Cargo Dataset
+                │
+                ▼
+         preprocess.py
+                │
+                ▼
+    feature_engineering.py
+                │
+                ▼
+   merge_reference_data.py
+                │
+                ▼
+ Exploratory Data Analysis
+                │
+                ▼
+      Power BI Dashboard
+```
+
+---
+
+# 📂 Project Structure
 
 ```
 air-cargo-profitability-analysis/
+
+│
+├── dashboard/
 │
 ├── data/
 │   ├── raw/
 │   ├── processed/
 │   ├── featured/
 │   └── reference/
+│
+├── images/
 │
 ├── notebooks/
 │   └── 01_eda.ipynb
@@ -48,39 +91,25 @@ air-cargo-profitability-analysis/
 │   ├── create_route_master.py
 │   └── merge_reference_data.py
 │
-├── dashboard/
-│
-├── images/
-│
 ├── requirements.txt
 └── README.md
 ```
 
 ---
 
-# 🔄 Data Pipeline
+# 📁 Data Source
 
-```
-Raw Cargo Data
-        │
-        ▼
-Preprocessing
-        │
-        ▼
-Feature Engineering
-        │
-        ▼
-Route Reference Merge
-        │
-        ▼
-Processed Dataset
-        │
-        ▼
-Exploratory Data Analysis
-        │
-        ▼
-Power BI Dashboard
-```
+### Primary Data
+
+- Incheon International Airport Open API
+- International Air Cargo Statistics (2024)
+
+### Reference Data
+
+- Country-to-Region Mapping
+- Airport Information
+
+The API data was automatically collected using Python and transformed into an analysis-ready dataset through preprocessing and feature engineering.
 
 ---
 
@@ -92,11 +121,15 @@ Power BI Dashboard
 
 Which countries receive the largest amount of cargo?
 
-**Insight**
+<p align="center">
+<img src="images/top_destinations.png" width="750">
+</p>
+
+### Insight
 
 - The United States handled the largest cargo volume.
 - China ranked second.
-- Japan, Vietnam, and Germany were also among the major cargo destinations.
+- Japan, Vietnam, and Germany were among the major cargo destinations.
 
 ---
 
@@ -106,7 +139,11 @@ Which countries receive the largest amount of cargo?
 
 Which countries export the most cargo?
 
-**Insight**
+<p align="center">
+<img src="images/outbound_destinations.png" width="750">
+</p>
+
+### Insight
 
 - The United States exported the highest cargo volume.
 - China and Vietnam were also major outbound cargo destinations.
@@ -119,7 +156,11 @@ Which countries export the most cargo?
 
 Which countries import the most cargo?
 
-**Insight**
+<p align="center">
+<img src="images/inbound_destinations.png" width="750">
+</p>
+
+### Insight
 
 - The United States received the highest inbound cargo volume.
 - China and Germany were among the largest import destinations.
@@ -132,10 +173,14 @@ Which countries import the most cargo?
 
 Which countries are net exporters?
 
-**Insight**
+<p align="center">
+<img src="images/net_export_destinations.png" width="750">
+</p>
 
-- Vietnam recorded the largest positive net cargo flow.
-- Hong Kong and Austria also functioned as export-oriented destinations.
+### Insight
+
+- Vietnam recorded the highest positive net cargo flow.
+- Hong Kong and Austria also showed strong export-oriented cargo movement.
 
 ---
 
@@ -145,7 +190,11 @@ Which countries are net exporters?
 
 Which regions handle the largest cargo volume?
 
-**Insight**
+<p align="center">
+<img src="images/cargo_by_region.png" width="750">
+</p>
+
+### Insight
 
 - Northeast Asia handled the largest cargo volume.
 - Europe ranked second, followed by the Americas.
@@ -159,11 +208,16 @@ Which regions handle the largest cargo volume?
 
 Which regions are net exporters and which are net importers?
 
-**Insight**
+<p align="center">
+<img src="images/net_flow_by_region.png" width="750">
+</p>
+
+### Insight
 
 - Northeast Asia recorded the highest positive net cargo flow.
-- Southeast Asia and the Middle East were also net exporters.
-- Europe recorded the largest negative net cargo flow, indicating import-oriented cargo movement.
+- Southeast Asia and the Middle East were net-export regions.
+- Europe recorded the largest negative net cargo flow, indicating an import-oriented cargo structure.
+- Cargo volume alone does not fully explain regional trade balance.
 
 ---
 
@@ -173,37 +227,36 @@ Which regions are net exporters and which are net importers?
 
 Which countries are highly export-oriented?
 
-**Insight**
+<p align="center">
+<img src="images/export_oriented_countries.png" width="750">
+</p>
 
-- Austria showed the highest departure ratio.
+### Insight
+
+- Austria recorded the highest departure ratio.
 - Hong Kong and Vietnam also demonstrated strong export-oriented characteristics.
-- Departure ratio complements total cargo volume by highlighting trade direction rather than cargo scale.
+- Export ratio complements total cargo volume by highlighting the direction of cargo movement rather than its scale.
 
 ---
 
-# 📈 Dashboard (Coming Soon)
+# 📈 Power BI Dashboard
 
-The Power BI dashboard will include:
+*(Coming Soon)*
+
+The interactive dashboard will include:
 
 - KPI Cards
+- Cargo Volume Overview
 - Top Cargo Destinations
 - Export vs Import Comparison
 - Cargo Volume by Region
-- Net Cargo Flow
+- Net Cargo Flow by Region
 - Interactive Country Filters
+- Drill-down Analysis
 
----
-
-# 📁 Dataset
-
-Source:
-
-- Incheon International Airport cargo statistics
-
-Additional reference data:
-
-- Airport information
-- Region mapping
+<p align="center">
+<img src="images/powerbi_dashboard.png" width="900">
+</p>
 
 ---
 
@@ -211,9 +264,10 @@ Additional reference data:
 
 - Monthly cargo trend analysis
 - Route distance analysis
-- Forecasting cargo demand
-- Interactive Power BI dashboard
-- Machine Learning for cargo prediction
+- Time-series forecasting
+- Machine learning for cargo demand prediction
+- Airline-level cargo analysis
+- Interactive web dashboard
 
 ---
 
@@ -224,4 +278,6 @@ Additional reference data:
 Information & Communication Engineering
 
 Aspiring Data Analyst
-    
+
+- GitHub: https://github.com/yewonekim-2002
+- LinkedIn: *(Add your LinkedIn profile here)*
